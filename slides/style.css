@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+}
+
+.inline {
+  display: inline-block;
+  position: relative;
+}
+
+.golden {
+  color: gold;
+}
+
+.recruit {
+  color: #88CCFF;
+}
+
+.caution {
+  color: #FF0000;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotate-30 {
+  transform: rotate(-30deg);
+}
+
+.reveal span.deprecated {
+  color: red;
+  font-weight: bold;
+  font-size: 4em;
+}
